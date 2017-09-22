@@ -1,4 +1,6 @@
-# modules-values-extract
+# modules-values-extract-6
+
+This is a fork of modules-values-extract with PostCSS 6.x support
 
 Extracts all CSS Module @values from a list of css files into an object.
 

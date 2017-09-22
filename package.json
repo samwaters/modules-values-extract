@@ -1,6 +1,6 @@
 {
-  "name": "modules-values-extract",
-  "version": "1.0.3",
+  "name": "modules-values-extract-6",
+  "version": "1.0.0",
   "description": "Extracts all CSS Module @values from a list of css files into an object",
   "dependencies": {
     "postcss-modules-values-replace": "^1.2.0"
@@ -11,7 +11,7 @@
     "eslint-plugin-import": "^2.0.0"
   },
   "peerDependencies": {
-    "postcss": "^5.2.5"
+    "postcss": "^6.0.11"
   },
   "files": [
     "index.js",
@@ -19,19 +19,29 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexhisen/modules-values-extract.git"
+    "url": "git@github.com:samwaters/modules-values-extract.git"
   },
   "keywords": [
     "css modules",
     "variables",
     "values",
     "react-toolbox",
-    "postcss"
+    "postcss",
+    "postcss 6"
   ],
-  "author": "Alex Hisen <alex@am.net>",
+  "author": {
+    "name": "Alex Hisen",
+    "email": "alex@am.net"
+  },
+  "contributors": [
+    {
+      "name": "Sam Waters",
+      "email": "sam@samwaters.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexhisen/modules-values-extract/issues"
   },
-  "homepage": "https://github.com/alexhisen/modules-values-extract"
+  "homepage": "https://github.com/samwaters/modules-values-extract"
 }
